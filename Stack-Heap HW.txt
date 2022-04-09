@@ -1,0 +1,23 @@
+1. What is mutable/immutable in Java?
+
+Mutable values can change. This happens inside StringBuilder and StringBuffer. Immutable means once created, it cannot be changed anymore.
+
+2. What is StringBuilder and StringBuffer and their differences?
+
+Some difference between StringBuilder and StringBuffer: StringBuilder is faster compared to StringBuffer. StringBuffer is thread safe.
+
+3. What is Stack and Heap in Java?
+
+Stack stores local variables. These are primitives, object references, and methods. Usually they are Last in, first out. Heap stores instance variables. They are stored with their objects as well.
+
+4. What is Garbage Collection?
+
+Garbage collection looks for unreference objects and gets deleted. 
+
+5. What does System.gc() or Runtime.getRunTime().gc() methods do in Java?
+
+Garbage collection can be called explicitly using System.gc() and Runtime.getRunTime().gc(). But in Java it happens automatically implicitly.
+
+6. What is finalize() method and why it is used for?
+
+finalized() method is to properly clean up before removing the object. It can be empty or overriding it.
