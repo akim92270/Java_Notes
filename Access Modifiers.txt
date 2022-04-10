@@ -1,0 +1,19 @@
+What are access modifiers in Java? Explain them!
+
+public : can be accessed in the project.
+private : can only be accessed in the specific class that it was created in.
+protected: based on inheritanced it can be default or public.
+default: can only be accessed in the same package.
+
+
+What is final keyword in Java and where to use it?
+
+final is access in the non-access modifiers, once initalized the value cannot be changed (including overriden).
+Class can be final and constructors cannot be final.
+
+What is static keyword in Java and where to use it?
+
+static belongs to a class and can be used with ClassName in the main method. 
+A method can be static, it will belong to class called with ClassName. The block of code it will run first when the object
+is created.
+Class can be static only if its in the inner class, not the parent and constructors cannot be static.
