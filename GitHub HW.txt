@@ -1,0 +1,8 @@
+What is Pull Request?
+
+Pull request allows us to grab the latest code. After the master has been edited with changes, collaboraters can grab by creating a new branch and then pull it from there.
+
+What is merge conflict and how to resolve it?
+
+Common issue is when multiple people work on the same project. Another issue would be working in the same class. In order to resolve this, we should resolve the conflict before merging into the main branch.
+
