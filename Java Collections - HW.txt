@@ -1,0 +1,41 @@
+1. What is Java Collections framework?
+Java Collections Framework is a set of pre-written classes and interfaces that helps us to organize and
+manipulate groups of objects.
+
+By using Java Collections Framework, we can organize our objects in different ways like lists, sets, or
+maps.
+
+2. What is List in Java?
+The List interface in Java specifies the methods required to process an ordered list of objects. Since List preserves the insertion order, it allows positional access and insertion of elements.
+The List interface is found in java.util package and inherits the Collection interface.
+
+3. What is Set in Java?
+The set interface defines the methods required to process an unordered collection of objects in which there is no duplication.
+
+4. What is Map in Java?
+Is a data structure that helps us to store multiple items in a single unique (key can not be duplicated) unit as KEY and VALUE (value can be duplicated)
+
+5. What is Iterator in Java?
+An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet. It is called an "iterator" because "iterating" is the technical term for looping.
+To use an Iterator, you must import it from the java.util package.
+
+6. What are the differences between List, Set
+and Map?
+A List in java extends the collection interface and represent an sequenced or ordered group of elements. It can contain duplicate elements. It also defines some additional methods which it inherits from Collection interface.
+Note: Elements in List can be inserted, updated, or retrieved by their position or index. Index or position value starts from 0.
+A set represents a group or collection of items. Set has a special property that is unique items, it can not contain a duplicate item or element. It extends the collection interface.
+Note: Set interface does not have any additional method other than methods inherited from Collection interface. With all collection interface methods it adds the restriction that it can not contain a duplicate elements.
+A map in java, not extends the Collection interface. It represents a group of special elements or objects. Every map element or object contains key and value pair. A map can’t contain duplicate keys and one key can refer to at most one value.
+
+7. When to use List, Set and Map in Java?
+We can use LIST, when we want to use methods with indexes as arguments
+We can use SET, when we need to group unique elements, because Set does not allow duplicates.
+We can use Map, when we need objects contains key and value pair
+
+8. What are the similarities and differences
+between HashMap and HashTable?
+
+SIMILARITIES:
+HashMap and Hashtable store key and value pairs in a hash table. When using a Hashtable or HashMap, we specify an object that is used as a key and the value that you want to be linked to that key. The key is then hashed, and the resulting hash code is used as the index at which the value is stored within the table.
+DIFFERENCES:
+HashMap allows only 1 null key and multiple null values. HashTable is synchronized and that is why thread safe while HashMap is not synchronized and not thread safe
