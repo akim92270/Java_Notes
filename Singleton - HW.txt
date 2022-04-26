@@ -1,0 +1,6 @@
+What is singleton design pattern and why do we use it? 
+Creational design pattern that ensures only one object exists and provides single point of access. It is achieved by making the constructor of the class private and prevents it from being instantiated anywhere else.
+
+
+How to achieve singleton design pattern?
+Private instance and constructor. We need the public getter method to get access to the object, and ensures a second object to not be instantiated.
